@@ -13,7 +13,6 @@ public class JavaLommeregner {
         for (int i = 0; i < 1;) {
             System.out.println("Vil du +(1), minus(2), gange(3), dividere(4) eller afslut programmet(0)");
             int action = input.nextInt();
-            System.out.println(action);
 
             if (action == 0) {
                 System.out.println("Programet stopper :/");
